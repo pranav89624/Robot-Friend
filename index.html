@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Friend</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1,h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;      
+        }
+        .head{
+            height: 120px;
+            width: 170px;
+            background-color: rgb(64, 107, 250);
+            border-top-left-radius: 10em;
+            border-top-right-radius: 10em;
+            display: flex;
+            justify-content: space-around;
+            align-items:last baseline;
+            margin-top: 40px;
+        }
+
+        .leye{
+            background-color: white;
+            height: 15px;
+            width: 15px;
+            margin: 30px;
+            border-radius: 10px;
+        }
+
+        .reye{
+            background-color: white;
+            height: 15px;
+            width: 15px;
+            margin: 30px;
+            border-radius: 10px;
+        }
+
+        .lowerbody{
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+        }
+        .lhand{
+            margin-right: 10px;
+            height: 100px;
+            width: 30px;
+            background-color: rgb(64, 107, 250);
+            border-radius: 15px;
+        }
+
+        .rhand{
+            margin-left: 10px;
+            height: 100px;
+            width: 30px;
+            background-color: rgb(64, 107, 250);
+            border-radius: 15px;
+        }
+
+        .stomach{
+            height: 170px;
+            width: 170px;
+            background-color: rgb(64, 107, 250);
+            border-bottom-left-radius: 3em;
+            border-bottom-right-radius: 3em;
+        }
+
+        .legs{
+            display: flex;
+            justify-content: center;
+        }
+
+        .lleg{
+            margin-right: 10px;
+            height: 60px;
+            width: 30px;
+            background-color: rgb(64, 107, 250);
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .rleg{
+            margin-left: 10px;
+            height: 60px;
+            width: 30px;
+            background-color: rgb(64, 107, 250);
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .lleg:hover{
+            height: 70px;   
+            transition: 0.5s ease;
+            transform: translateY(-10px)  rotate(380deg);
+        }
+
+        .rleg:hover{   
+            height: 70px;   
+            transition: 0.5s ease;  
+            transform: translateY(-10px)   rotate(340deg);
+        }
+
+        .lhand:hover{
+            transform: rotate(90deg);
+            transition: 0.5s ease;
+        }
+
+        .rhand:hover{
+            transform: rotate(90deg);
+            transition: 0.5s ease;
+        }
+
+        .head:hover {
+            width: 250px;
+            transition:  2s ease;
+            justify-content: flex-start;
+        }
+
+        .stomach:hover{
+            height: 200px;
+            transition: 2s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Robot Friend</h1>
+    <h2>Tap / Hover Me To See Dance.</h2>
+    <div class="container">
+        <div class="head">
+            <div class="leye"></div>
+            <div class="reye"></div>
+        </div>
+    </div>
+    <div class="lowerbody">
+            <div class="lhand"></div>
+            <div class="stomach"></div>
+            <div class="rhand"></div>
+    </div>
+
+    <div class="legs">
+        <div class="lleg"></div>
+        <div class="rleg"></div>
+    </div>
+</body>
+</html>
