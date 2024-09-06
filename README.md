@@ -19,6 +19,8 @@ Usage :
   Open the index.html file in your browser to see the robot in action. Interact with the robot to <br>  experience the smooth transitions and transformations that bring it to life.
   OR
   Go to the website I provided in the about section of this repository.
+  OR
+  Simply just <a href="https://pranav89624.github.io/Robot-Friend/" target="_blank">Tap Here</a>
   The project is fully responsive and optimized for various screen sizes.
 </pre>
 <br><br>
